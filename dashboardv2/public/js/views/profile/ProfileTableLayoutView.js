@@ -236,7 +236,7 @@ define(['require',
                                     })
                                 }
 
-                                return '<span data-guid="' + model.get('guid') + '" class="sparklines" sparkType="bar" sparkBarColor="#38BB9B" values="' + sparkarray.join(',') + '"></span>'
+                                return '<span data-guid="' + model.get('guid') + '" class="sparklines" sparkType="bar" sparkBarColor="#20558a" values="' + sparkarray.join(',') + '"></span>'
                             }
                         })
                     },

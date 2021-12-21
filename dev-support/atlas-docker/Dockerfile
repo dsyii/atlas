@@ -35,7 +35,8 @@ ENV PATH /usr/java/bin:/usr/local/apache-maven/bin:/usr/local/sbin:/usr/local/bi
 WORKDIR /root
 
 # Pull down Atlas and build it into /root/atlas-bin.
-RUN git clone https://github.com/apache/atlas.git -b master
+#RUN git clone https://github.com/apache/atlas.git -b master
+RUN git clone https://github.com/dsyii/atlas.git -b master
 
 RUN echo 'package-lock=false' >> ./atlas/.npmrc
 
