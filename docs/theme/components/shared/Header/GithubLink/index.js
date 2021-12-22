@@ -30,32 +30,32 @@ const GitHubDivContent = styled.div`
 `;
 
 const GithubLinkProps = {
-  repository: "https://github.com/apache/atlas/"
+  repository: "https://github.com/dsyii/atlas/"
 };
 
 export const GithubLink = ({ repository, ...props }) => {
   return (
     <GitHubDivContent {...props}>
       <GitHubButton
-        href="https://github.com/apache/atlas/fork"
+        href="https://github.com/dsyii/atlas/fork"
         data-size="large"
-        aria-label="Fork apache/atlas on GitHub"
+        aria-label="Fork dsyii/atlas on GitHub"
       >
         Fork
       </GitHubButton>
 
       <GitHubButton
-        href="https://github.com/apache/atlas/archive/master.zip"
+        href="https://github.com/dsyii/atlas/archive/master.zip"
         data-size="large"
-        aria-label="Download apache/atlas on GitHub"
+        aria-label="Download dsyii/atlas on GitHub"
       >
         Download
       </GitHubButton>
 
       <GitHubButton
-        href="https://github.com/apache/atlas"
+        href="https://github.com/dsyii/atlas"
         data-size="large"
-        aria-label="Star apache/atlas on GitHub"
+        aria-label="Star dsyii/atlas on GitHub"
       >
         Star
       </GitHubButton>

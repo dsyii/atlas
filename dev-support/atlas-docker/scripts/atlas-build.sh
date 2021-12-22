@@ -23,7 +23,7 @@ fi
 
 if [ "${GIT_URL}" == "" ]
 then
-  GIT_URL=https://github.com/apache/atlas.git
+  GIT_URL=https://github.com/dsyii/atlas.git
 fi
 
 if [ "${PROFILE}" != "" ]

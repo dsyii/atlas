@@ -34,7 +34,7 @@ setup(
     description="Apache Atlas Python Client",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/apache/atlas/tree/master/intg/src/main/python",
+    url="https://github.com/dsyii/atlas/tree/master/intg/src/main/python",
     license='Apache LICENSE 2.0',
     classifiers=[
         "Programming Language :: Python :: 3.6",

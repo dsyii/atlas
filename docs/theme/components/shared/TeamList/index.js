@@ -81,7 +81,7 @@ export default class TeamList extends Component {
 
   fetchData() {
     axios
-      .get(`https://raw.githubusercontent.com/apache/atlas/master/pom.xml`)
+      .get(`https://raw.githubusercontent.com/dsyii/atlas/master/pom.xml`)
       .then(res => {
         // Transform the raw data by extracting the nested posts
         parseString(res.data, (err, result) => {

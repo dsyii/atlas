@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apache/atlas.git"
+    "url": "git+https://github.com/dsyii/atlas.git"
   },
   "keywords": [
     "lineage",
@@ -19,9 +19,9 @@
   "author": "kevalbhatt",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/apache/atlas/issues"
+    "url": "https://github.com/dsyii/atlas/issues"
   },
-  "homepage": "https://github.com/apache/atlas#readme",
+  "homepage": "https://github.com/dsyii/atlas#readme",
   "dependencies": {
     "d3-tip": "^0.9.1",
     "dagre-d3": "^0.6.4",
